@@ -1,0 +1,62 @@
+.header_container {
+  height: 60px;
+  background-color: rgb(13, 0, 61);
+  padding: 10px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.header_container .logo h2 {
+  color: #fff;
+  font-size: 2.8rem;
+}
+.header_container .logo h2 span {
+  color: rgb(195, 0, 91);
+}
+.header_container .center {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px 0px;
+}
+.header_container .center h2 {
+  font-size: 18px;
+  color: #fff;
+}
+.header_container .right {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0px;
+}
+.header_container .right .links {
+  display: flex;
+  gap: 20px;
+}
+.header_container .right .links .link {
+  font-size: 18px;
+  color: #fff;
+}
+.header_container .right .cart {
+  padding: 0 20px;
+}
+.header_container .right .cart .link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  gap: 10px;
+  position: relative;
+}
+.header_container .right .cart .link p {
+  position: absolute;
+  left: 60px;
+  top: -1px;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=Header.css.map */
